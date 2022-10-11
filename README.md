@@ -1,4 +1,4 @@
-# ROBOTS_CSC15_F22
+# ROBOTS CSC15 F22
 
 ## Add device to Hofstra ## 
 
