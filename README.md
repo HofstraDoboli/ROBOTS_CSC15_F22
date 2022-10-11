@@ -1,6 +1,6 @@
 # ROBOTS_CSC15_F22
 
-## ADD DEVICE TO HOFSTRA LIST ## 
+## Add device to Hofstra ## 
 
 1. Go to `mydevices.hofstra.edu` and login with your Hofstra portal user name and password
 2. Click Add:
@@ -22,4 +22,5 @@
 1. From your Terminal, type the following command: `ssh pi@xx.xx.xx.xx`, 
    where `xx.xx.xx.xx` are the top row of numbers on the side of the Ethernet port.
 2. It will ask you for a password. Enter `goodyear` as the password and press the Enter key.
+3. You are now connected to the robot's Raspberry PI
 
