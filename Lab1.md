@@ -49,20 +49,20 @@ c) Learn how to move the robot's motors: https://sourceforge.net/p/raspberry-gpi
 
 **Copy move.py on the robot**
 
-5. Type `nano move.py` and enter
-6. Copy and paste the content of the file `move.py` from here to the nano text editor
-7. Type `CTRL-X` and 'y' to save the changes. 
+7. Type `nano move.py` and enter
+8. Copy and paste the content of the file `move.py` from here to the nano text editor
+9. Type `CTRL-X` and 'y' to save the changes. 
 
 **Understand move.py and run it**
 
-9. Type `nano move.py` and look at the file. Identify what each line does. Then type `CTRL-X` and 'y' to exit. 
-10. Put the robot in the middle of the desk. Run the program by typing `python move.py` and enter. 
+10. Type `nano move.py` and look at the file. Identify what each line does. Then type `CTRL-X` and 'y' to exit. 
+11. Put the robot in the middle of the desk. Run the program by typing `python move.py` and enter. 
 Make sure the robot doesn't fall. What does the robot do?
 
 **Make changes to move.py**
 
-11. Type `nano move.py` and enter. 
-12. Change the code so the robot moves forward, turns right approximately 90 degrees, and then moves forward again. Test with the turn right time so the robot makes a reasonably close 90 degrees turn. 
-13. Make the robot move in a square. Change the code by adding a for loop that repeats 4 times. Inside the loop the robot should do 2 moves: move forward followed by a turn approx .90 degrees. Test the program.
-14. Change the turn right with a turn left. Test the program on the robot. 
-15. Make the robot move in a circle first clockwise and then counter-clockwise. Call the function `setMotor(left, right)` to move the robot in a circle. Change the values of left and right to adjust the radius of the circle. 
+12. Type `nano move.py` and enter. 
+13. Change the code so the robot moves forward, turns right approximately 90 degrees, and then moves forward again. Test with the turn right time so the robot makes a reasonably close 90 degrees turn. 
+14. Make the robot move in a square. Change the code by adding a for loop that repeats 4 times. Inside the loop the robot should do 2 moves: move forward followed by a turn approx .90 degrees. Test the program.
+15. Change the turn right with a turn left. Test the program on the robot. 
+16. Make the robot move in a circle first clockwise and then counter-clockwise. Call the function `setMotor(left, right)` to move the robot in a circle. Change the values of left and right to adjust the radius of the circle. 
