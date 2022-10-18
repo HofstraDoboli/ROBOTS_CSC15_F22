@@ -27,7 +27,7 @@
 
 ## Go to the folder with robot's programs:
 
-    1. Type `cd programs\AlphaBot2\AlphaBot2\python\` and enter at the raspberry pi prompt. 
+    1. Type `cd code/AlphaBot2/AlphaBot2/python` and enter at the raspberry pi prompt. 
     2. Type `ls` and enter. You will see a list of python files. 
     3. To run a program type: `python program_name.py` and enter. 
     3. To stop a program with an infinite loop, type `CTRL-C` on the putty/terminal window. 
