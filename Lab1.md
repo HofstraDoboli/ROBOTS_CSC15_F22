@@ -66,3 +66,4 @@ Make sure the robot doesn't fall. What does the robot do?
 14. Make the robot move in a square. Change the code by adding a for loop that repeats 4 times. Inside the loop the robot should do 2 moves: move forward followed by a turn approx .90 degrees. Test the program.
 15. Change the turn right with a turn left. Test the program on the robot. 
 16. Make the robot move in a circle first clockwise and then counter-clockwise. Call the function `setMotor(left, right)` to move the robot in a circle. Change the values of left and right to adjust the radius of the circle. 
+17. In the file `WhatYourGroupDid.txt` write what experiments you did with the robot and what did you observe. 
