@@ -24,6 +24,10 @@
 2. It will ask you for a password. Enter `goodyear` as the password and press the Enter key.
 3. You are now connected to the robot's Raspberry PI
 
+## Go to the folder with robot's programs:
+
+Type `cd 
+
 ## Access robot's code ## 
 
 0. Install cyberduck on your machine from: https://cyberduck.io/download/
