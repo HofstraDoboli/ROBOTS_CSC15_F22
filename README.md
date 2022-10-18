@@ -26,7 +26,8 @@
 
 ## Go to the folder with robot's programs:
 
-Type `cd 
+    1. Type `cd programs\AlphaBot2\AlphaBot2\python\` and enter at the raspberry pi prompt. 
+    2. Type `ls` and enter. You will see a list of python files. 
 
 ## Access robot's code ## 
 
