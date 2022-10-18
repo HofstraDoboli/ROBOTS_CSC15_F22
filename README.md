@@ -1,6 +1,6 @@
 # ROBOTS CSC15 F22
 
-## Add device to Hofstra ## 
+## Add device to Hofstra network ## 
 
 1. Go to `mydevices.hofstra.edu` and login with your Hofstra portal user name and password
 2. Click Add:
