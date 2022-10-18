@@ -14,6 +14,7 @@
 
 1. On the bottom flip the switch labelled `PWR SWITCH` while holding the robot straight (nothing should touch the robots)
 2. Wait at least 30 seconds before attempting to login to the Raspberry Pi with the next set of directions.
+3. Do not flip the PWR SWITCH switch while program is running. This will crash the ssh and the putty/terminal window. 
 
 ## Login to the robot's Raspberry Pi ##
 
@@ -28,6 +29,8 @@
 
     1. Type `cd programs\AlphaBot2\AlphaBot2\python\` and enter at the raspberry pi prompt. 
     2. Type `ls` and enter. You will see a list of python files. 
+    3. To run a program type: `python program_name.py`
+    3. To stop a program with an infinite loop, type `CTRL-C` on the putty/terminal window. 
 
 ## Access robot's code ## 
 
@@ -47,5 +50,3 @@
    * You should now see the folders and files on the robot's PI
 
 
-Do not flip the PWR SWITCH switch while program is running. This will crash the ssh and the putty/terminal window. 
-Stop the robot with CTRL-C on the putty/terminal window. 
