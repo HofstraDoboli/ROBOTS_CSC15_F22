@@ -10,9 +10,9 @@
 
 ### References ###
 
-a) Look at the user manual https://www.mouser.com/pdfdocs/Alphabot2-user-manual-en.pdf 
-b) AlphaBot2 Wiki: https://www.waveshare.com/wiki/AlphaBot2-Pi#Introduction 
-c) Learn how to move the robot's motors: https://sourceforge.net/p/raspberry-gpio-python/wiki/BasicUsage/
+a.  Look at the user manual https://www.mouser.com/pdfdocs/Alphabot2-user-manual-en.pdf  
+b. AlphaBot2 Wiki: https://www.waveshare.com/wiki/AlphaBot2-Pi#Introduction  
+c. Learn how to move the robot's motors: https://sourceforge.net/p/raspberry-gpio-python/wiki/BasicUsage/
  
 ### Tasks ### 
 
