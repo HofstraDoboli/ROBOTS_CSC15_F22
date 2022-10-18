@@ -29,10 +29,19 @@
 
     1. Type `cd programs\AlphaBot2\AlphaBot2\python\` and enter at the raspberry pi prompt. 
     2. Type `ls` and enter. You will see a list of python files. 
-    3. To run a program type: `python program_name.py`
+    3. To run a program type: `python program_name.py` and enter. 
     3. To stop a program with an infinite loop, type `CTRL-C` on the putty/terminal window. 
 
-## Access robot's code ## 
+## See and change robot's code ## 
+
+**via the robot's terminal window**
+
+    1. Type `pwd` and enter. The output should show the following path `.../AlphaBot2/AlphaBot2/python/`. If it shows a different path, type `cd ~` and enter. Then follow the direction 1 from ** Go to the folder with robot's programs** and repeat this step. 
+    2. Type `ls` and enter to see the names of the files insidee the folder `/python/`.
+    3. Choose a file to open and type: `nano file_name.py` and enter. Nano is a command prompt text editor (no GUI). You will see the file and a list of commands at the bottom. You can move in the file only with arrows and delete or add new code. 
+    4. When you are done making changes, press `CTRL-X` then 'y' to save changes, then press enter one more time to save and exit the editor. 
+    
+**via an application (cyberduck)** 
 
 0. Install cyberduck on your machine from: https://cyberduck.io/download/
   * Download the zip file for your machine (Windows or Mac)
