@@ -1,0 +1,6 @@
+Answer the following questions:
+
+1. What is a duty cycle?
+2. What fraction of a second did you have to turn the robot to make an approx 90 degrees turn. 
+3. How did you make the robot move in a circle. 
+4. How can you increase the radius of the circle the robot moves. 

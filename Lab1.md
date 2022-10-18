@@ -63,7 +63,8 @@ Make sure the robot doesn't fall. What does the robot do?
 
 12. Type `nano move.py` and enter. 
 13. Change the code so the robot moves forward, turns right approximately 90 degrees, and then moves forward again. Test with the turn right time so the robot makes a reasonably close 90 degrees turn. 
-14. Make the robot move in a square. Change the code by adding a for loop that repeats 4 times. Inside the loop the robot should do 2 moves: move forward followed by a turn approx .90 degrees. Test the program.
+14. Make the robot move in a square. Change the code by adding a for loop that repeats 4 times. Inside the loop the robot should do 2 moves: move forward followed by a turn approx .90 degrees. Test the program. Copy the program in the file `move_square.py`
 15. Change the turn right with a turn left. Test the program on the robot. 
-16. Make the robot move in a circle first clockwise and then counter-clockwise. Call the function `setMotor(left, right)` to move the robot in a circle. Change the values of left and right to adjust the radius of the circle. 
-17. In the file `WhatYourGroupDid.txt` write what experiments you did with the robot and what did you observe. 
+16. Make the robot move in a circle first clockwise and then counter-clockwise. Call the function `setMotor(left, right)` to move the robot in a circle. Change the values of left and right to adjust the radius of the circle. Copy the program in file `move_circle.py`
+17. In the file `Answers.txt` answer the questions. 
+18. In the file `WhatYourGroupDid.txt` write what experiments you did with the robot and what did you observe. Explain what you did, what worked, what did not work, and what problems you had 
