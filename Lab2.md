@@ -4,7 +4,7 @@
 
 1. Learn about Infrared Sensors (IR sensors)
 2. Use Infrared Sensors to detect an object to the left or the right of the robot
-3. Use Infrared Sensors to move around obstacles. 
+3. Use Infrared Sensors to make the robot move around obstacles. 
 
 ### References ###
 
