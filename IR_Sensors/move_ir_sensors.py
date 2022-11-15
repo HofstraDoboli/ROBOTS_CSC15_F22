@@ -21,21 +21,19 @@ Ab.setPWMA(20) # set duty cycle for the left motor
 Ab.setPWMB(20) # set duty cycle for the right motor
  
 try: # catch runtime error in the block of code inside try
-        Ab.forward() # start moving forward slowly
-
-        while True: # run forever
-        
-                DR_status = GPIO.input(DR) # read again the infrared sensors
-                DL_status = GPIO.input(DL)
-
-                if DR_status == 0 or DL_status == 0:
-                        Ab.stop()
-                        if DR_status == 0:
-                                print("Right side")
-                        if DL_status == 0:
-                                print("Left side")   
-                else:
-                        Ab.forward()
+ Ab.forward() # start moving forward slowly
+ while True: # run forever
+  DR_status = GPIO.input(DR) # read again the infrared sensors
+  DL_status = GPIO.input(DL)
+  if (DR_status == 0): # right side robot object detected
+   print("DR= 0, object right - Turn left ") 
+   Ab.left()
+  
+  elif (DL_status == 0):  # left side robot object detected
+   print("DL = 0, object left - Turn right ")
+   Ab.right()               
+  else: # no objects detected 
+   Ab.forward()
                          
-except KeyboardInterrupt: # if the program was stopped from the keyboard (ctrl-c) then stop the program 
-        GPIO.cleanup();
+except KeyboardInterrupt: # if the program was stopped from the keyboard (ctrl-c ) then stop the program 
+ GPIO.cleanup();
