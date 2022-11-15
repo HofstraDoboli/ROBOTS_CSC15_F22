@@ -33,6 +33,5 @@ try: # catch runtime error in the block of code inside try
                 else:
                         Ab.forward()
                          
-except KeyboardInterrupt: # if the program was stopped from the keyboard (ctrl-c
-) then stop the program 
+except KeyboardInterrupt: # if the program was stopped from the keyboard (ctrl-c) then stop the program 
         GPIO.cleanup();
