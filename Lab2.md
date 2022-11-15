@@ -15,7 +15,7 @@ c. Learn how to move the robot's motors: https://sourceforge.net/p/raspberry-gpi
 ### Tasks ### 
 
 1. Identify IR (infrared) sensors on the robot
-2. Read how they work: https://www.keyence.com/ss/products/sensor/sensorbasics/photoelectric/info/
+2. Read how IR sensors work: https://www.keyence.com/ss/products/sensor/sensorbasics/photoelectric/info/ **Write in `Answers.txt` a few sentences on how IR sensors with both emiter and receiver work.**
 3. Follow the steps in Readme.md to connect to the robot. 
 4. Follow the steps in Readme.md to move to /python/ folder. 
 
@@ -23,16 +23,16 @@ c. Learn how to move the robot's motors: https://sourceforge.net/p/raspberry-gpi
     * Type `nano check_ir_sensors.py` and enter
     * Copy and paste the content of the file `check_ir_sensors.py` from here to the nano text editor
     * Type `CTRL-X` and 'y' to save the changes. 
-6. Run `check_ir_sensors.py`. Type `python check_ir_sensors.py`. Observe what happens when you put your hand on the left, front and right side of the robot. Look at the program. Write what the program `check_ir_sensors.py` does in `Answers.txt`. Be specific. 
+6. Run `check_ir_sensors.py`. Type `python check_ir_sensors.py`. Observe what happens when you put your hand on the left, front and right side of the robot. Look at the program. **Write what the program `check_ir_sensors.py` does in `Answers.txt`. Be specific.** 
 
 7. **Copy file `move_forward_ir_sensors.py` on the robot**
     * Type `nano move_forward_ir_sensors.py` and enter
     * Copy and paste the content of the file `move_forward_ir_sensors.py` from here to the nano text editor
     * Type `CTRL-X` and 'y' to save the changes. 
-8. Run `move_forward_ir_sensors.py`. Type `python move_forward_ir_sensors.py`. Observe what happens when you put your hand on the left, front and right side of the robot. Look at the program. Write what the program `move_forward_ir_sensors.py` does in `Answers.txt`. Be specific.
+8. Run `move_forward_ir_sensors.py`. Type `python move_forward_ir_sensors.py`. Observe what happens when you put your hand on the left, front and right side of the robot. Look at the program. **Write what the program `move_forward_ir_sensors.py` does in `Answers.txt`. Be specific.**
 
 9.  Type `cp move_forward_ir_sensors.py move_ir_sensors.py' (this copies the content of `move_forward_ir_sensors.py` to `move_ir_sensors.py`. 
-10. Type `nano move_ir_sensors.py`. Modify this file, so the robot turns left if a robot is detected on its right side and it turns right if a robot is detected on its left side and forward otherwise. Use some of the move commands below. Copy your final code in `Answers.txt`. Write if your program worked or not and if not what do you think happened?
+10. Type `nano move_ir_sensors.py`. Modify this file, so the robot turns left if a robot is detected on its right side and it turns right if a robot is detected on its left side and forward otherwise. Use some of the move commands below. **Copy your final code in `Answers.txt`. Write if your program worked or not and if not what do you think happened?**
 
 **Robot move functions (defined in AlphaBot2.py)**
 
