@@ -22,12 +22,13 @@
 0. On a Mac computer open a terminal window (lookfor Terminal in Launchpad)
 1. From your Terminal, type the following command: `ssh pi@xx.xx.xx.xx`, 
    where `xx.xx.xx.xx` are the top row of numbers on the side of the Ethernet port.
-2. It will ask you for a password. Enter `goodyear` as the password and press the Enter key.
-3. You are now connected to the robot's Raspberry PI
+   CHANGES TO IP address compared to sticker: The IP address of the robots has a change in its 3rd xx. 0 is replaced by 128, so a robot that has 10.26.0.73 on the sticker has the IP address 10.26.128.73. 
+3. It will ask you for a password. Enter `raspberry`(OLD PASSWORD `goodyear`) as the password and press the Enter key.
+4. You are now connected to the robot's Raspberry PI
 
 ## Go to the folder with robot's programs:
 
-    1. Type `cd code/AlphaBot2/AlphaBot2/python` and enter at the raspberry pi prompt. 
+    1. Type `cd /AlphaBot2-Demo/RaspberryPi/AlphaBot2/python` and enter at the raspberry pi prompt (OLD path: `cd code/AlphaBot2/AlphaBot2/python` - DO NOT USW) 
     2. Type `ls` and enter. You will see a list of python files. 
     3. To run a program type: `python program_name.py` and enter. 
     3. To stop a program with an infinite loop, type `CTRL-C` on the putty/terminal window. 
@@ -36,12 +37,12 @@
 
 **via the robot's terminal window**
 
-    1. Type `pwd` and enter. The output should show the following path `.../AlphaBot2/AlphaBot2/python/`. If it shows a different path, type `cd ~` and enter. Then follow the direction 1 from ** Go to the folder with robot's programs** and repeat this step. 
+    1. Type `pwd` and enter. The output should show the following path `.../AlphaBot2/python/`. If it shows a different path, type `cd ~` and enter. Then follow the direction 1 from ** Go to the folder with robot's programs** and repeat this step. 
     2. Type `ls` and enter to see the names of the files insidee the folder `/python/`.
     3. Choose a file to open and type: `nano file_name.py` and enter. Nano is a command prompt text editor (no GUI). You will see the file and a list of commands at the bottom. You can move in the file only with arrows and delete or add new code. 
     4. When you are done making changes, press `CTRL-X` then 'y' to save changes, then press enter one more time to save and exit the editor. 
     
-**via an application (cyberduck)** 
+**SKIP THIS STEP via an application (cyberduck)** 
 
 0. Install cyberduck on your machine from: https://cyberduck.io/download/
   * Download the zip file for your machine (Windows or Mac)
