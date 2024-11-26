@@ -18,7 +18,7 @@
 
 ## Login to the robot's Raspberry Pi ##
 
-0. On a Windows computer download ssh (PuTTY) app (https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.77-installer.msi)
+0. On a Windows computer download ssh (PuTTY) app (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html, or  https://apps.microsoft.com/detail/xpfnzksklbp7rj?hl=en-us&gl=US)
 0. On a Mac computer open a terminal window (lookfor Terminal in Launchpad)
 1. From your Terminal, type the following command: `ssh pi@xx.xx.xx.xx`, 
    where `xx.xx.xx.xx` are the top row of numbers on the side of the Ethernet port.
