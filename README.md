@@ -28,7 +28,7 @@
 4. You are now connected to the robot's Raspberry PI
 
 ## Go to the folder with robot's programs:
-1. Type `cd /AlphaBot2-Demo/RaspberryPi/AlphaBot2/python` and enter at the raspberry pi prompt (OLD path: `cd code/AlphaBot2/AlphaBot2/python` - DO NOT USW)
+1. Type `cd AlphaBot2-Demo/RaspberryPi/AlphaBot2/python` and enter at the raspberry pi prompt (OLD path: `cd code/AlphaBot2/AlphaBot2/python` - DO NOT USW)
 2. Type `ls` and enter. You will see a list of python files. 
 3. To run a program type: `python program_name.py` and enter. 
 4. To stop a program with an infinite loop, type `CTRL-C` on the putty/terminal window. 
