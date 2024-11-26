@@ -41,8 +41,8 @@ c. Learn how to move the robot's motors: https://sourceforge.net/p/raspberry-gpi
     * Both right and left values can be between -100 and 100. 
     * if left is positive, the robot moves the right wheel forward with duty cycle  = left
     * if left is negative, the robot moves the right wheel backward with duty cycle = -left
-    * if right is positive, the robot moves the left wheel forward with duty cycle  = left
-    * if right is negative, the robot moves the left wheel backward with duty cycle = -left
+    * if right is positive, the robot moves the left wheel forward with duty cycle  = right
+    * if right is negative, the robot moves the left wheel backward with duty cycle = -right
 * NOTES: 
     * Once you call a robot move function, you need to specify the time you want the robot to execute it. Use the command time.sleep(seconds) to control how long a robot move function runs. 
     * In between two robot move commands, add a stop command for a more reliable movement. 
